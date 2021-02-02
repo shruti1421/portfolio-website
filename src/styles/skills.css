@@ -1,0 +1,286 @@
+
+.list-tech .num {
+    
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.25s;
+    height: 8vh;
+  }
+  .list-edu .num {
+    
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.25s;
+    height: 8vh;
+  }
+  .list-exp .num {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.25s;
+    height: 8vh;
+  }
+  .list .num:nth-child(0):before {
+    content: '0';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-tech .num:nth-child(1):before {
+    content: '\00a0 FRONTEND';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+    }
+  .list-tech .num:nth-child(2):before {
+    content: '\00a0 BACKEND';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-tech .num:nth-child(3):before {
+    content: '\00a0 FRAMEORKS';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-tech .num:nth-child(4):before {
+    content: '\00a0 CP';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-tech .num:nth-child(5):before {
+    content: '\00a0 IDE&OS';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-edu .num:nth-child(1):before {
+    content: '\00a0 Higher\00a0Secondary\00a0(2016\00a0-\00a0 18)';
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+    }
+  .list-edu .num:nth-child(2):before {
+    content: '\00a0 B.Tech\00a0in\00a0 CSE\00a0(2019\00a0-\00a0 23)';
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-edu .num:nth-child(3) {
+    content: '';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-edu .num:nth-child(4) {
+    content: '';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-edu .num:nth-child(5) {
+    content: '';
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #02352f;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-exp .num:nth-child(1):before {
+    content: '\00a0 WEB\00a0 DEVELOPER';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-exp .num:nth-child(2):before {
+    content: '\00a0 EVENT\00a0LEAD';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-exp .num:nth-child(3) {
+    content: '';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #019282;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-exp .num:nth-child(4) {
+    content: '';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-exp .num:nth-child(5) {
+    content: '';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    width: 2rem;
+    opacity: 0.05;
+    transition: 0.25s;
+  }
+  .list-tech .num h3 {
+    position: relative;
+    left: -1.5rem;
+    color: #094942;
+    font-size: 0.85rem;
+    transition: 0.25s;
+    padding-top: 12px;
+  }
+  .list-edu .num h3 {
+    position: relative;
+    left: -1.5rem;
+    color: #094942;
+    font-size: 0.85rem;
+    transition: 0.25s;
+    padding-top: 13px;
+  }
+ .list-tech .num:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+  .list-edu .num:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+ .list-tech .num:hover:before {
+    opacity: 0.2;
+  }
+  .list-edu .num:hover:before {
+    opacity: 0.2;
+  }
+  .list-exp .num h3 {
+    position: relative;
+    left: -1.5rem;
+    color: #f7ecec;
+    font-size: 0.85rem;
+    transition: 0.25s;
+  }
+ .list-exp .num:hover {
+    background-color: #086b60;
+    cursor: pointer;
+  }
+ .list-exp .num:hover:before {
+    opacity: 0.2;
+  }
+ .list-tech .num:hover h3 {
+    left: 9rem;
+  }
+  .list-edu .num:hover h3 {
+    left: 18rem;
+  }
+  .list-edu .num:nth-child(1):hover h3{
+    left: 20rem;
+  }
+  .list-exp .num:hover h3 {
+    left: 9rem;
+  }
+
+  .list-tech .num:nth-child(3):hover h3{
+    left: 12rem;
+  }
+
+  .list-tech .num:nth-child(4):hover h3{
+    left: 2rem;
+  }
+
+  .list-exp .num:nth-child(1):hover h3{
+    left: 15rem;
+  }
+
+  .list-exp .num:nth-child(2):hover h3{
+    left: 11rem;
+  }
+  .list-exp .num h3{
+    color: white;
+  }
+  .list-tech .num h3{
+    color: #094942;
+    font-size: 18px;
+}
+.list-edu .num h3{
+  color: #094942;
+  font-size: 18px;
+}
+.list-exp .num h3{
+    font-size: 18px;
+}
+
+
+    @media only screen and (max-width: 1000px) {
+        .skills-body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0;
+          width: 100%;
+          font-size: 18px;
+          margin-top: 45%;
+        }
+        .skills-body h1{
+            font-size: 18px;
+            width: 100%;
+        }
+        .list-tech .num h3{
+            font-size: 10px;
+        }
+        .list-edu .num h3{
+          font-size: 10px;
+      }
+        .list-exp .num h3{
+            font-size: 10px;
+        }
+      
+      }
+.skills-body h1 {
+  font-family: "Luckiest Guy", cursive;
+  padding: 10px;
+}
+
+
