@@ -1,6 +1,6 @@
 ## About The Project
 
-My Personal Portfolio React.js ❤️.<br>
+My Personal Portfolio built with React.js ❤️.<br>
 It's a work in progress project that I update and improve iteratively. At least, that's the plan!
 
 ### Deploy
