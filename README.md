@@ -27,12 +27,12 @@ git clone https://github.com/Adyasha8105/Adyasha-Portfolio/
 #### 2. **Install necessary dependencies for the frontend application**
 
 ```sh
-cd portfolio-website && npm install
+cd portfolio && npm install
 ```
 
 #### 3. **Start the frontend application**
 
-From the frontend directory, we can run the following command to start our Next.js frontend application:
+From the portfolio directory, we can run the following command to start our Next.js frontend application:
 
 ```sh
 npm start
