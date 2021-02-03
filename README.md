@@ -32,7 +32,7 @@ cd portfolio && npm install
 
 #### 3. **Start the frontend application**
 
-From the portfolio directory, we can run the following command to start our Next.js frontend application:
+From the portfolio directory, we can run the following command to start our React.js frontend application:
 
 ```sh
 npm start
