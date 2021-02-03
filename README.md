@@ -21,7 +21,7 @@ This is an example of how you may give instructions on setting up your project l
 #### 1. **Clone the application**
 
 ```sh
-git clone https://github.com/Adyasha8105/Adyasha-Portfolio/
+git clone https://github.com/shruti1421/portfolio-website
 ```
 
 #### 2. **Install necessary dependencies for the frontend application**
